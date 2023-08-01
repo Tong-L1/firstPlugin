@@ -1,0 +1,10 @@
+name: firstPlugin
+version: '${project.version}'
+main: com.smxd.firstPlugin.Main
+description: "测试插件"
+author: "Tong"
+api-version: '1.20'
+commands:
+    firstPlugin:
+        description: "插件指令描述"
+        aliases: fp
